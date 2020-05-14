@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import pyzbar.pyzbar as pyzbar
 from PIL import Image, ImageEnhance
-#test code
+# test code
 img = Image.open("/Users/wangxinkai/Desktop/1.png")
 texts = pyzbar.decode(img)
 for text in texts:
